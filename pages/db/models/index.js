@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize')
 
-const sequelize = new Sequelize("mysql://rpt21wxk7bzg:pscale_pw_4n9qpG3t49XlbHaT7xoGN_EguwHYGHHEOPRYS5OX2T4@6dey8fye7m79.us-east-3.psdb.cloud/sched-db",
+const sequelize = new Sequelize("mysql",
 {
   dialect: "mysql2",
   dialectOptions: {
